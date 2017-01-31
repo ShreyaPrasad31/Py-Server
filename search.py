@@ -12,7 +12,7 @@ def compute_ranks(graph):
         for page in graph:
             newrank = (1 - d) / npages
             
-            #Insert Code Here
+          
             
             newranks[page] = newrank
         ranks = newranks
